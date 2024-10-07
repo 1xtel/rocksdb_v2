@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "onex-dipra/rocksdb"]
+	url = https://github.com/onex-dipra/enlfq.git
+	fetch = +refs/heads/*:refs/remotes/onex-dipra/rocksdb/*
+[remote "origin"]
+	url = https://github.com/onex-dipra/rocksdb.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
