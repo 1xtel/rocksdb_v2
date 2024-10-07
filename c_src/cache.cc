@@ -66,7 +66,7 @@ Cache::RetrieveCacheResource(ErlNifEnv * Env, const ERL_NIF_TERM & CacheTerm)
     return ret_ptr;
 }
 
-Cache::Cache(std::shared_ptr<rocksdb::Cache> Cache) : cache_(Cache) {}
+Cache::Cache(std::shared_ptr<rocksdb::Cache> CacheParam) : cache_(CacheParam) {}
 
 Cache::~Cache()
 {
