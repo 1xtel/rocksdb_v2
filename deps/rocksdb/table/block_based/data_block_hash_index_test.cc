@@ -8,7 +8,7 @@
 #include <cstdlib>
 #include <string>
 #include <unordered_map>
-
+#include <cstdint>
 #include "db/table_properties_collector.h"
 #include "rocksdb/slice.h"
 #include "table/block_based/block.h"
