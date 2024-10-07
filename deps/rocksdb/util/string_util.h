@@ -10,7 +10,7 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
-
+#include <cstdint>
 #include "rocksdb/rocksdb_namespace.h"
 
 namespace ROCKSDB_NAMESPACE {
